@@ -57,9 +57,9 @@ public class Player : MonoBehaviour
 		}
 		myRigidbody.velocity = new Vector2 (moveVelocity, myRigidbody.velocity.y);
 		if (myRigidbody.velocity.x > 0) {
-			transform.localScale = new Vector3 (-1f, 1f, 1f);
+			transform.localScale = new Vector3 (0.4f, 0.3f, 1f);
 		} else if (myRigidbody.velocity.x < 0) {
-			transform.localScale = new Vector3 (1f, 1f, 1f);
+			transform.localScale = new Vector3 (-0.4f, 0.3f, 1f);
 		}
 
 	}
